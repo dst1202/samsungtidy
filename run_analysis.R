@@ -34,7 +34,7 @@ run_analysis <- function() {
         ## add column names from the features file
         colnames(testData) <- features[,2]
         colnames(trainingData) <- features[,2]
-        ## merge activity and subject columns with the data
+        ## merge activity columns with the data
         testMerge <- cbind(testSubject, testActivities, testData)
         trainMerge <- cbind(trainSubject, trainingActivities, trainingData)
         ## merge training and test data sets
