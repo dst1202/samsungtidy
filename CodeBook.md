@@ -153,7 +153,7 @@ Each of these is a computed average of either a mean or standard deviation value
  - t in a variable name denotes time
  - f denotes frequency
  - X, Y & Z denote axial directions
- - It's not clear from the information provided with the original data set what units these measurements.
+ - It's not clear from the information provided with the original data set what units these measurements are in.
 
 ##Sources
 [Tidy data paper by Hadley Wickham](http://vita.had.co.nz/papers/tidy-data.pdf)
