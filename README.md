@@ -1,6 +1,8 @@
 # samsungtidy
 Getting and Cleaning Data Course Project
 
+All code in [run_analysis.R](https://github.com/dst1202/samsungtidy/blob/master/run_analysis.R) file
+
 1. Check for presence of `getdata_projectfiles_UCI HAR Dataset.zip`, exit with "Samsung data is not in working directory" message if the file is not found
 2. Use unz to open a connection to each file as detailed in [Codebook.md](https://github.com/dst1202/samsungtidy/blob/master/CodeBook.md) within the zip archive in turn. Use read.table to read each file. No need to close the connection as `showConnections`shows no open connection left.
 3. Attach the column names from features.txt to the test and training data
