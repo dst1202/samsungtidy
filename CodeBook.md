@@ -47,7 +47,8 @@ For this project the files needing to be merged and tidied are as follows:
 6. Create a second, independent, tidy data set with the average of each variable for each activity and each subject.
  
 ###Cleaning of the data
-Cleaning script runs as follows: 
+Cleaning script runs as follows 
+
 1. Checks for the presence of the zip file
 2. Inputs the files listed above
 3. Merges test & training data with the variable names, identifiers of the activity and participants
@@ -65,7 +66,6 @@ More details can be found in [https://www.github.com/dst1202/samsungtidy/README.
 
  - tidyData has 180 rows of 68 variables
  - Grouped by activity and subject and then average of each mean and std variable in the original data set
- - Variable information
 
 ###activity
 Description of each of the 6 activities:  
@@ -156,4 +156,5 @@ Each of these is a computed average of either a mean or standard deviation value
 
 ##Sources
 [Tidy data paper by Hadley Wickham](http://vita.had.co.nz/papers/tidy-data.pdf)
+
 [Discussion thread in the Course Forum](https://class.coursera.org/getdata-013/forum/thread?thread_id=31)
